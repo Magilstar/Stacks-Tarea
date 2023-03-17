@@ -1,5 +1,5 @@
-// Estructuras Dinamicas de Datos: Pilas
-// Rafael Mata, José Carrillo, Marlon Urdaneta, Tomás Santana, Juan Gil
+// Estructuras Dinamicas de Datos: Colas
+// Juan Gil
 
 #include <stdio.h>
 #include <stdlib.h>
