@@ -113,7 +113,7 @@ int main() {
 
     iterateStack(stack, &printInfo);
 
-    printf("\nAfter deleting a record\n\n");
+    printf("\nDespues de borrar\n\n");
     pop(stack);
 
     iterateStack(stack, &printInfo);
