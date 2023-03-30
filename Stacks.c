@@ -77,10 +77,12 @@ void iterateStack(Stack* stack, PC (*function)(PC)) {
 int itemExist(Stack* stack, char name[]) {
     Node* actual = stack->begin;
     while (actual != NULL) {
-        if (!strcmp(actual->content.name, name)) return 1; 
+        if (!strcmp(actual->content.name, name)) return 1;
+        actual = actual->next;
     }
     return 0;
 }
+
 
 PC printInfo(PC n) {
     printf(
